@@ -14,7 +14,7 @@ scanf("%d", &n);
 for(i=0;i<n;i++)
 {
 printf("\nEnter Burst Time for Process %d -- ", i);
-scanf("%d", &bt[i]);>
+scanf("%d", &bt[i]);
 }
 wt[0] = wtavg = 0;
 tat[0] = tatavg = bt[0];
